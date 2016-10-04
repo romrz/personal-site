@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-weight: 100;
+}
+
+.halign {
+    margin: auto;
+}
+
+.nav-container {
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.main-nav {
+    background-color: transparent;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.main-nav a {
+    color: #333;
+}
+
+.main-nav img {
+    border: white medium solid;
+    height: 56px;
+    margin-top: 4px;
+}
+
+.section-container {
+    height: 110%;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.first-section-container {
+    height: 100%;
+    margin-top: 0;
+}
+
+.profile-img {
+    border: white thick solid;
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 18%;
+    min-width: 192px;
+}
+
+.description {
+    width: 70%;
+    min-width: 400px;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.footer {
+    width: 100%;
+}
+
+.skills .chip {
+    font-size: 0.7em;
+    margin: 1px 0;
+    padding: 0 10px;
+}
+
+.card .card-action a {
+    font-weight: normal;
+}
