@@ -8,6 +8,22 @@ body * {
     font-weight: 100;
 }
 
+.btn-large:hover {
+    background-color: transparent;
+}
+
+.color1 {
+    background-color: #22223B;
+}
+
+.color2 {
+    background-color: #A12E41;
+}
+
+.color3 {
+    background-color: #277D40;
+}
+
 .halign {
     margin: auto;
 }
@@ -40,9 +56,20 @@ body * {
 }
 
 .section-container {
+    padding: 0 20px 0 20px;
+    box-sizing: border-box;
     height: 110%;
     width: 100%;
     margin-top: -20px;
+    word-wrap: break-word;
+}
+
+.section-container > div {
+    width: 100%;
+}
+
+.section-container p {
+    word-wrap: break-word;
 }
 
 .first-section-container {
@@ -59,8 +86,10 @@ body * {
 }
 
 .description {
+    margin: auto;
+    text-align: center;
     width: 70%;
-    min-width: 400px;
+    min-width: 300px;
     font-size: 1.2em;
     margin: auto;
 }
